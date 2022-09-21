@@ -1,6 +1,27 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
-
 html{
-    background-color: aqua;
+    background-color: #062e63;
+}
+
+/*--menu-suspenso--*/
+nav#tree li.has-children{
+    cursor: pointer;
+    position: relative;
+}
+
+
+nav#tree li.has-children::before{
+    content: '\f107';
+    color: gold;
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 2rem;
+    right: 1rem;
+}
+
+li > ul {
+    display: none;
+}
+li.open > ul {
+    display: block;
 }
