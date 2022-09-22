@@ -4,7 +4,7 @@ const menu = [
 
 
 {id:1,name:`Formação`,parent:null},
-{id:2,name:"Ensino-Medio",parent:1},
+{id:2,name:`<h3>Ensino Medio</h3> <p>Colegio Status - 2015</p> `,parent:1},
 {id:3,name:"Ensino-Superior",parent:1},
 {id:4,name:` Experiência`,parent:null},
 {id:5,name:"experiencia1",parent:4},

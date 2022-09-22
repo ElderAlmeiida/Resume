@@ -1,7 +1,136 @@
 
+/*-font-inter-import*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
 html{
-    background-color: #062e63;
+    background-color: #5268DB;
+    font-family: 'Inter', sans-serif;
+
 }
+/*-body-content-*/
+div#-info-name- {
+    
+
+    border-radius: 1rem;
+    padding: 1rem;
+
+    max-height: 62.57rem;
+    max-width:62.57rem ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    text-align: center;
+    margin: 0.68rem;
+    text-shadow: 2px 2px #030c3b;
+}
+header h1{
+    color: white;
+    
+}
+
+/* imagem-config*/
+img#profile {
+    
+    border-radius: 50%;
+    border: white solid 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+
+/* nome-config */
+h1#name{
+
+    margin-bottom: 0;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    background-color: #1F2F82;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-shadow: 2px 2px #030c3b;
+}
+
+/* info-pessoal */
+hgroup#info-content{
+    background-color: white;
+    padding: 1rem;
+
+    margin-top: 0%;
+    margin-bottom: 4.12rem;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+p#resume{
+    margin: 1rem;
+    text-align: center;
+}
+
+div#-info-others {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+div#contato{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    text-align: center;
+    
+
+}
+#tel img , #mail img {
+    margin-right: 1rem;
+    position: relative;
+}
+a#tel,a#mail {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+
+a#tel:hover,a#mail:hover{
+    color:#1F2F82;
+}
+
+div#media{
+    margin: 1rem ;
+    text-align: center;
+}
+
+#media img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+p#end{
+    text-align: center;
+}
+
+.has-children{
+    font-size:2rem ;
+    font-weight: 600;
+    color: white;
+    background-color: #1F2F82;
+    list-style-type: none;
+
+    padding: 0.5rem;
+}
+
+.has-children ul {
+    color:black;
+    background: white;
+    list-style-type: none;
+}
+
+
+
+
+
+
 
 /*--menu-suspenso--*/
 nav#tree li.has-children{
@@ -23,5 +152,6 @@ li > ul {
     display: none;
 }
 li.open > ul {
+    animation-delay: 1s;
     display: block;
 }
