@@ -134,6 +134,7 @@ p#end{
 
 /*--menu-suspenso--*/
 nav#tree li.has-children{
+    margin: 1rem;
     cursor: pointer;
     position: relative;
 }
@@ -154,4 +155,5 @@ li > ul {
 li.open > ul {
     animation-delay: 1s;
     display: block;
+    
 }
